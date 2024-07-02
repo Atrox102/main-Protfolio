@@ -31,7 +31,7 @@ const Parallax: React.FC<ParallaxProps> = ({ type }) => {
         {type === "services" ? "What We Did?" : "Our Portfolio"}
       </motion.h1>
 
-      <motion.div className="absolute bottom-0 w-full h-full max-lg:max-w-[767px] max-lg:h-[400px] ">
+      <motion.div className="absolute bottom-0 w-full h-full max-lg:w-[130%] max-lg:h-[600px] ">
         <Image src={"/mountains.png"} alt="" fill />
       </motion.div>
 
@@ -39,7 +39,7 @@ const Parallax: React.FC<ParallaxProps> = ({ type }) => {
         style={{
           y: yBg,
         }}
-        className="absolute bottom-10 w-full h-full max-lg:max-w-[400px]  max-lg:h-[400px]"
+        className="absolute bottom-10 w-full h-full max-lg:w-[150%]  max-lg:h-[600px]"
       >
         <Image src={"/planets.png"} alt="" fill />
       </motion.div>
